@@ -6,7 +6,7 @@ WORKDIR /build
 VOLUME out
 
 # Copy necessary directories
-COPY rcheevos /build
+COPY . /build
 
 # Install dependencies
 RUN apt-get update
